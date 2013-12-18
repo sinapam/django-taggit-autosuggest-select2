@@ -34,7 +34,7 @@ This project is directly based on those projects:
 * To enable autosuggesting Tags, just let the tagged model use `TaggableManager`:
 
         from django.db import models
-        from taggit_autosuggest.managers import TaggableManager
+        from taggit_autosuggest_select2.managers import TaggableManager
 
         class SomeModel(models.Model):
 
