@@ -7,7 +7,7 @@ long_description = open('README.txt').read()
 
 setup(
     name='django-taggit-autosuggest-select2',
-    version='0.1',
+    version='0.1.1',
     description='Autosuggestions for django-taggit',
     long_description=long_description,
     author='Fabian Topfstedt',
@@ -15,6 +15,9 @@ setup(
     url='https://bitbucket.org/fabian/django-taggit-autosuggest',
     packages=find_packages(),
     include_package_data=True,
+    package_data={
+      'django-taggit-autosuggest-select': ['taggit_autosuggest_select2/templates'],
+    },
     classifiers=[
         'Development Status :: 4 - Beta',
         'Environment :: Web Environment',
