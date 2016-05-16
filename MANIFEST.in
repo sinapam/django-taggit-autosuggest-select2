@@ -1,3 +1,1 @@
-include taggit_autosuggest_select2/templates
-include taggit_autosuggest_select2/static
-include taggit_autosuggest_select2/conf
+recursive-include taggit_autosuggest_select2 *
