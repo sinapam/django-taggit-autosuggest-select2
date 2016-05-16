@@ -16,7 +16,7 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     package_data={
-      'django-taggit-autosuggest-select': ['taggit_autosuggest_select2/templates'],
+      'templates': ['taggit_autosuggest_select2/templates/*'],
     },
     classifiers=[
         'Development Status :: 4 - Beta',
