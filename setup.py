@@ -15,9 +15,6 @@ setup(
     url='https://bitbucket.org/fabian/django-taggit-autosuggest',
     packages=find_packages(),
     include_package_data=True,
-    package_data={
-      'templates': ['taggit_autosuggest_select2/templates/*'],
-    },
     classifiers=[
         'Development Status :: 4 - Beta',
         'Environment :: Web Environment',
